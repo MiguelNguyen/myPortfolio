@@ -306,7 +306,7 @@
 
 			    var map = new google.maps.Map(document.getElementById('gmap'), {
 				    zoom: 15,
-					center: {lat: -37.814812, lng: 144.963055},//latitude and longitude
+					center: {lat: 37.801239, lng: -122.258299},//latitude and longitude
 			        styles: theme_array,
 					scrollwheel: false
 				});
@@ -321,7 +321,7 @@
 					map: map,
 					draggable: true,
 					animation: google.maps.Animation.DROP,
-					position: {lat: -37.814812, lng: 144.963055},//latitude and longitude
+					position: {lat: 37.801239, lng: -122.258299},//latitude and longitude
 					title: 'Marker Title'
 				});
 				marker.addListener('click', function(){
