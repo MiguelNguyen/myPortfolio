@@ -202,6 +202,11 @@
     	isotope();
     });
 
+    // button animiation
+    function myFunction() {
+    	document.getElementById("color").style.color = "red";
+    }
+
     //portfolio filter
     $('.portfolio_grid_filter li').on('click', function(){
 	    $('.portfolio_grid_filter li').removeClass('active');
